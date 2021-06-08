@@ -128,8 +128,9 @@ list-style-type: none;
     margin-top: 25px;
     font-size:medium;
     text-transform: uppercase;
-    color: rgb(238, 165, 165);
+    color: rgb(252, 146, 146);
     z-index: 4;
+    font-weight: bold;
 }
 
 .title::after {
