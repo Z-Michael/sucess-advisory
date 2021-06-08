@@ -83,6 +83,7 @@ body{
 }
 #banner p{
     color:#fff;
+    text-align:justify;
 }
    
 
@@ -110,7 +111,8 @@ body{
 
 .service-img{
     width:80px;
-    padding-top:80px;
+    padding-top:50px;
+    padding-bottom:50px
     
 }
 
@@ -124,8 +126,9 @@ list-style-type: none;
 #services h4 {
     padding: 15px;
     margin-top: 25px;
+    font-size:medium;
     text-transform: uppercase;
-    color: rgb(80, 7, 7);
+    color: rgb(238, 165, 165);
     z-index: 4;
 }
 
@@ -153,6 +156,9 @@ list-style-type: none;
     background-image:linear-gradient(to right,#0d090e, #5f1782);
 
 }
+
+#services p {
+text-align:justify}
 
 
 
@@ -252,9 +258,10 @@ margin-top: 8%;
    }
    .par-fix{
        margin-top: 30px;
+      
    }
    
-   .footer-box .fas{
+   .footer-box .fas {
        margin-right: 8px;
        font-size: 25px;
        height:40px;
@@ -264,6 +271,16 @@ margin-top: 8%;
        border-radius: 20px;
         background-image:linear-gradient(to right,#0d090e, #5f1782);
 
+   }
+   .footer-box .fab{
+       margin-right: 8px;
+       font-size: 25px;
+       height:40px;
+       width:40px;
+       text-align: center;
+       padding-top: 7px;
+       border-radius: 20px;
+        background-image:linear-gradient(to right,#0d090e, #5f1782);
    }
 
       .form-control{
@@ -282,9 +299,7 @@ margin-top: 8%;
        background-image:linear-gradient(to right,#0d090e, #5f1782);
 
     }
-    .btn-primary{
-
-    }
+    
     hr{
         background-color:white
     }
@@ -334,4 +349,11 @@ margin-top: 8%;
     font-size:small;
     color:#fff;
    } 
+#footer .font-fix{
+    font-size: medium;
+}
+
+#services p {
+    text-align: justify;
+}
 }
