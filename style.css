@@ -64,7 +64,7 @@ body{
 #banner {
    color:rgb(51, 47, 47);
    padding-top:5%;
-    height: 80vh;
+    height: 90vh;
     background-image:linear-gradient(to right,#0d090e, #5f1782);
    background-repeat: no-repeat;
    object-fit: cover;
